@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+
+body{
+  background-color: #FEFAE0;
+  font-family: "Kalam";
+  color: rgb(100,100,100);
+  padding: 20px;
+  font-size:13px;
+  margin: 5px;
+  font-weight: 300;
+ }
+
+ h1,h2,h3{
+  font-family: "Kalam";
+  text-align: center;
+ }
+
+ h1{
+   font-size: 35px;
+   color: #55677b;
+   letter-spacing: 3px;
+ }
+
+ h2{
+  color: #7088a2;
+  letter-spacing: 3px;
+}
+
+h3{
+  color: #55677b;
+  font-weight: lighter;
+}
+
+ .icon-small{
+   width: 30px;
+   height: 30px;
+ }
+
+ p{
+  width: 85%;
+  margin: 8px auto;
+ }
+
+ li{
+  width: 90%;
+  margin: 3px auto;
+ }
+
+ #profile{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   margin: 10px auto;
+ }
+
+ .pic-center,.media{
+   text-align: center;
+ }
+
+ .icon-small:hover{
+  box-shadow: 2px 2px 3px #55677b;
+  width: 35px;
+  height: 35px;
+ }
+
+ .section{
+  background-color: #e7effe;
+  margin: 7px auto;
+  border-radius: 15%;
+  padding: 10px;
+  border: 0.3px dotted #d0d8e7;
+  width: 55%;
+}
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .section {
+    width: 65%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .section {
+    width: 75%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .section {
+    width: 85%;
+  }
+}
