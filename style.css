@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
 
 body{
-  background-color: #FEFAE0;
+  background-color: #FEF9D9;
   font-family: "Kalam";
   color: rgb(100,100,100);
   padding: 20px;
@@ -27,7 +27,7 @@ body{
 }
 
 h3{
-  color: #55677b;
+  color: hsl(212, 18%, 41%);
   font-weight: lighter;
 }
 
